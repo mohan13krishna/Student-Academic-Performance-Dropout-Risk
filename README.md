@@ -40,7 +40,7 @@ Student dropout prediction is one of the most assigned problems in applied ML co
 
 | Metric | This Dataset | Real-World Source |
 |---|---|---|
-| Overall dropout rate | **32.0%** | NCES 2023 — 6-year non-completion rate |
+| Overall dropout rate | **32.0%** | NCES 2023 - 6-year non-completion rate |
 | First-generation students | **42.0%** | NCES 2023 |
 | Students with disabilities | **20.9%** | NCES 2023 |
 | International students | **18.1%** | OECD 2023 |
@@ -61,7 +61,7 @@ Student dropout prediction is one of the most assigned problems in applied ML co
 | Part-time job holder | **39.8%** | 24.7% | Work burden significantly increases risk |
 | First-generation student | **37.4%** | 28.1% | Lacks family college support system |
 | Part-time study mode | **33.7%** | 32.0% (Full-time) | Reduced campus integration |
-| GPA semester 1 correlation | **r = −0.569** | — | Strongest single predictor |
+| GPA semester 1 correlation | **r = −0.569** | - | Strongest single predictor |
 
 ---
 
