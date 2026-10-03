@@ -2,7 +2,7 @@
 
 ## Overview
 
-A comprehensive **research-grade** dataset containing **100,000 student records** with **32 carefully engineered features** capturing academic performance, socioeconomic background, engagement behaviour, institutional context, and student wellbeing — all calibrated against peer-reviewed education research and national statistics.
+A comprehensive **research-grade** dataset containing **100,000 student records** with **32 carefully engineered features** capturing academic performance, socioeconomic background, engagement behaviour, institutional context, and student wellbeing - all calibrated against peer-reviewed education research and national statistics.
 
 The target variable `dropout` (binary: 0 = Enrolled/Graduated, 1 = Dropped Out) achieves a **32.0% positive rate**, reflecting real-world college attrition patterns without any oversampling.
 
@@ -12,12 +12,12 @@ The target variable `dropout` (binary: 0 = Enrolled/Graduated, 1 = Dropped Out) 
 
 ## Why This Dataset?
 
-Student dropout prediction is one of the most assigned problems in applied ML coursework — and one of the most important in real education policy. Yet most available datasets are tiny, single-institution, or heavily anonymized. This dataset provides:
+Student dropout prediction is one of the most assigned problems in applied ML coursework - and one of the most important in real education policy. Yet most available datasets are tiny, single-institution, or heavily anonymized. This dataset provides:
 
 - **100,000 records** across 15 nationalities, 5 course types, and 3 study modes
 - **32 features** spanning academic, financial, behavioural, institutional, and wellbeing dimensions
-- **Realistic causal structure** — GPA, attendance, and financial stress drive dropout the way research says they should
-- **Modern features** — LMS logins, commute time, mental health support access, and weekly work hours
+- **Realistic causal structure** - GPA, attendance, and financial stress drive dropout the way research says they should
+- **Modern features** - LMS logins, commute time, mental health support access, and weekly work hours
 - **Calibrated prevalences** matching NCES 2023, UNESCO 2023, and OECD Education at a Glance 2023
 
 ---
@@ -67,12 +67,12 @@ Student dropout prediction is one of the most assigned problems in applied ML co
 
 ## Suggested Tasks
 
-- **Binary Classification** — Predict `dropout` (0 or 1)
-- **Early Warning System** — Identify at-risk students using only semester 1 features
-- **Fairness Analysis** — Does the model perform equally across income levels, gender, and first-generation status?
-- **Feature Importance** — Which academic vs financial vs behavioural signals matter most?
-- **Subgroup Analysis** — How does dropout risk vary by course type and study mode?
-- **Threshold Optimization** — Tune for recall (catching all dropouts) vs precision
+- **Binary Classification** - Predict `dropout` (0 or 1)
+- **Early Warning System** - Identify at-risk students using only semester 1 features
+- **Fairness Analysis** - Does the model perform equally across income levels, gender, and first-generation status?
+- **Feature Importance** - Which academic vs financial vs behavioural signals matter most?
+- **Subgroup Analysis** - How does dropout risk vary by course type and study mode?
+- **Threshold Optimization** - Tune for recall (catching all dropouts) vs precision
 
 ### Recommended Models
 `Logistic Regression` · `Random Forest` · `XGBoost` · `LightGBM` · `CatBoost` · `Neural Networks`
@@ -91,4 +91,4 @@ Student dropout prediction is one of the most assigned problems in applied ML co
 
 ## Acknowledgements
 
-Calibrated using data from the National Center for Education Statistics (NCES) 2023, UNESCO Global Education Monitoring Report 2023, OECD Education at a Glance 2023, Georgetown Center on Education and the Workforce, American College Health Association NCHA 2023, ACT National Dropout Prevention Center, and Tinto's Student Integration Model. All records are fully synthetic — no real student data is present.
+Calibrated using data from the National Center for Education Statistics (NCES) 2023, UNESCO Global Education Monitoring Report 2023, OECD Education at a Glance 2023, Georgetown Center on Education and the Workforce, American College Health Association NCHA 2023, ACT National Dropout Prevention Center, and Tinto's Student Integration Model. All records are fully synthetic - no real student data is present.
