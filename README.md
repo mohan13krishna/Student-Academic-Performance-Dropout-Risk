@@ -6,7 +6,7 @@ A comprehensive **research-grade** dataset containing **100,000 student records*
 
 The target variable `dropout` (binary: 0 = Enrolled/Graduated, 1 = Dropped Out) achieves a **32.0% positive rate**, reflecting real-world college attrition patterns without any oversampling.
 
-> The existing UCI Student Performance dataset has only 649 rows. This is a ground-up modern rebuild — **154× more rows**, **32 features**, and calibrated to NCES 2023, UNESCO 2023, and OECD Education at a Glance benchmarks.
+> The existing UCI Student Performance dataset has only 649 rows. This is a ground-up modern rebuild - **154× more rows**, **32 features**, and calibrated to NCES 2023, UNESCO 2023, and OECD Education at a Glance benchmarks.
 
 ---
 
